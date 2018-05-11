@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Khmer Christ Church</string>
+    <string name="home_drawermenu">ទំព័រដើម</string>
+    <string name="music_drawermenu">បទចំរៀង</string>
+    <string name="music_video_drawermenu">ចំរៀងវីដេអូ</string>
+    <string name="god_word_drawermenu">ព្រះបន្ទូល</string>
+    <string name="activities_drawermenu">សកម្មភាព</string>
+    <string name="charity_drawermenu">សប្បុរសធម៌</string>
+    <string name="title_header">ព្រះវិហ៊ារអេដែនថ្មី</string>
+    <string name="subtitle_header">iengpho@gmail.com</string>
+</resources>
