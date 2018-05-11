@@ -8,4 +8,7 @@
     <string name="charity_drawermenu">សប្បុរសធម៌</string>
     <string name="title_header">ព្រះវិហ៊ារអេដែនថ្មី</string>
     <string name="subtitle_header">iengpho@gmail.com</string>
+
+    <string name="close_action_drawer">បិត</string>
+    <string name="open_action_drawer">បើក</string>
 </resources>
