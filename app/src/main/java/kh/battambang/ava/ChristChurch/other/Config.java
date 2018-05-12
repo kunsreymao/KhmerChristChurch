@@ -16,4 +16,8 @@ public class Config {
     // Youtube video player list id
     public static final String YOUTUBE_VIDEO_PLAYLIST_ID = "PLRjVRI6Dt69WqwsUg6NhTPnjjM9D-30mC";
 
+    public static String sanaURL = "http://sanacinema.000webhostapp.com/";
+
+    public static String sanaEndPoint = "christ_church_anndroid_app/get_json_data.php";
+
 }

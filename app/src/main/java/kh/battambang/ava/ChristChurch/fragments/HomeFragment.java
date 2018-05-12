@@ -26,16 +26,13 @@ import java.util.ArrayList;
 import kh.battambang.ava.ChristChurch.Data;
 import kh.battambang.ava.ChristChurch.R;
 import kh.battambang.ava.ChristChurch.RecyclerAdapter;
+import kh.battambang.ava.ChristChurch.other.Config;
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class HomeFragment extends BaseFragment {
 
-    private String url = "http://pembuatanprogram.000webhostapp.com/";
-    private String urlEndPoint = "";
-    private String sanaURL = "http://sanacinema.000webhostapp.com/";
-    private String sanaEndPoint = "christ_church_anndroid_app/get_json_data.php";
     private RecyclerView recyclerView;
     private RecyclerAdapter recyclerAdapter;
     private ArrayList<Data> listData;
@@ -94,7 +91,8 @@ public class HomeFragment extends BaseFragment {
             }
         };
 
-        JsonObjectRequest objRequest = new JsonObjectRequest(Request.Method.GET,sanaURL+sanaEndPoint,null,resJSonJbj,errorListener);
+
+        JsonObjectRequest objRequest = new JsonObjectRequest(Request.Method.GET, Config.sanaURL + Config.sanaEndPoint,null,resJSonJbj,errorListener);
         Volley.newRequestQueue(getContext()).add(objRequest);
     }
 
