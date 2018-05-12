@@ -11,4 +11,9 @@
 
     <string name="close_action_drawer">បិត</string>
     <string name="open_action_drawer">បើក</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
 </resources>
