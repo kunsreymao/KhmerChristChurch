@@ -53,6 +53,7 @@ public class IEYoutubePlayer extends BaseFragment {
                 Log.d("errorMessage:", errorMessage);
             }
         });
+
         return view;
     }
 

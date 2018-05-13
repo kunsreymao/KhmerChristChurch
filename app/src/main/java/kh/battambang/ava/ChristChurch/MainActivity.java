@@ -1,5 +1,6 @@
 package kh.battambang.ava.ChristChurch;
 
+import android.content.pm.ActivityInfo;
 import android.support.annotation.NonNull;
 import android.support.design.internal.NavigationMenu;
 import android.support.design.internal.NavigationMenuView;
@@ -35,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.navigation_view);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setupDrawerContent(navigationView);
+
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 
     @Override
@@ -54,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 fragmentClass = HomeFragment.class;
                 break;
             case R.id.music_drawer_menu:
+                //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_NOSENSOR);
                 fragmentClass = IEYoutubePlayer.class;
                 break;
         }
